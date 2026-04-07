@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>APRICOT GYM</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  line-height: 1.8;
+  background: #111;
+  color: #fff;
+}
+
+/* 共通 */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* ヘッダー */
+header {
+  background: #000;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #ffcc00;
+  font-size: 20px;
+}
+
+/* Instagram */
+.insta-header {
+  width: 26px;
+}
+
+/* セクション */
+.section {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.section h2 {
+  color: #ffcc00;
+  margin-bottom: 20px;
+}
+
+/* 画像 */
+.main-img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+/* 動画 */
+video {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+/* カード */
+.card {
+  background: #000;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* CTA */
+.cta {
+  background: linear-gradient(#000, #222);
+  text-align: center;
+  padding: 50px 20px;
+}
+
+/* 画像のサイズ調整 */
+.main-img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 12px;
+  margin: 20px auto;
+  display: block;
+}
+  
+.cta img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.limit {
+  color: #ff4444;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  display: inline-block;
+  background: #06C755;
+  color: #fff;
+  padding: 16px 30px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* フッター */
+footer {
+  background: #000;
+  text-align: center;
+  padding: 20px;
+}
+
+/* 固定LINE */
+.line-fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #06C755;
+  color: #fff;
+  padding: 16px 22px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="container header-inner">
+    <h1>🔥 APRICOT GYM 🔥</h1>
+    <a href="https://www.instagram.com/apricotgym2026">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" class="insta-header">
+    </a>
+  </div>
+</header>
+
+
+<!-- コンセプト -->
+<section class="container section">
+  <h2>ダイエットプランとは？</h2>
+  <img src="gymgirl2.jpg" class="main-img">
+  <img src="ryoukin.jpg" class="main-img">
+</section>
+
+<!-- 強み -->
+<section class="container section">
+  <h2>このプランの強み</h2>
+  <img src="tuyomi.jpg" class="main-img">
+</section>
+  
+<!-- 動画 -->
+<section class="container section">
+  <video src="diet.mp4" autoplay muted loop playsinline></video>
+</section>
+  
+<!-- CTA -->
+<section class="cta">
+  <img src="beforeafter2.jpg">
+
+  <p class="limit">
+    【残り3名】今月の新規受付はあとわずかです
+  </p>
+
+  <a href="https://lin.ee/xUmAtVC" class="cta-btn">
+    LINEで無料相談する
+  </a>
+</section>
+
+<footer>
+  <p>© APRICOT GYM</p>
+</footer>
+
+<a href="https://lin.ee/xUmAtVC" class="line-fixed">
+  LINE予約
+</a>
+
+</body>
+</html>
